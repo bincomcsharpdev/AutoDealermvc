@@ -1,4 +1,6 @@
+using AutoDealer.Interfaces;
 using AutoDealer.Models;
+using AutoDealer.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -17,7 +19,12 @@ builder.Services.AddDbContext<AppDataContext>(options =>
             errorNumbersToAdd: null    // Specific error numbers (optional)
         );
     }));
+
+builder.Services.AddScoped<IimagesService, ImageService>();
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

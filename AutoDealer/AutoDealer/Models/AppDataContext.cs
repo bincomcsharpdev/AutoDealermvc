@@ -8,6 +8,6 @@ namespace AutoDealer.Models
         {
             
         }
-        public DbSet<Photo> Photos { get; set; }
+        public DbSet<Photo> Kenneth_Cars { get; set; }
     }
 }
