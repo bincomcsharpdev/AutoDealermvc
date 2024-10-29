@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoDealer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+548eb8112e2afed6f594f04769066814ea844ab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e4498d615978bd6f2a24812393d52084870f482")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoDealer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoDealer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

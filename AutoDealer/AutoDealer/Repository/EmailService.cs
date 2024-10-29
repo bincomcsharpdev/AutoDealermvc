@@ -27,13 +27,28 @@ namespace AutoDealer.Repository
                 Text = request.Body
             };
 
-            using (var client = new SmtpClient())
+            var client = new SmtpClient();
+            try
             {
-                await client.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.Port, MailKit.Security.SecureSocketOptions.StartTls);
+                await client.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.Port, MailKit.Security.SecureSocketOptions.SslOnConnect);
                 await client.AuthenticateAsync(_emailSettings.SenderEmail, _emailSettings.SenderPassword);
                 await client.SendAsync(message);
-                await client.DisconnectAsync(true);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error sending email: {ex.Message}");
+                throw;
+            }
+            finally
+            {
+                await client.DisconnectAsync(true);
+                client.Dispose();
+            }
+            
+                
+                
+               
+            
         }
     }
 }
