@@ -2,6 +2,7 @@ using AutoDealer.Interfaces;
 using AutoDealer.Models;
 using AutoDealer.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,8 @@ builder.Services.AddDbContext<AppDataContext>(options =>
     }));
 
 builder.Services.AddScoped<IimagesService, ImageService>();
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();
 

@@ -66,3 +66,9 @@ C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\D
 C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\obj\Debug\net6.0\AutoDealer.csproj.AssemblyReference.cache
 C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\obj\Debug\net6.0\AutoDealer.csproj.CopyComplete
+C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\MailKit.dll
+C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\MimeKit.dll
+C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\tibel\OneDrive\Desktop\Github\AutoDealermvc\AutoDealer\AutoDealer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
